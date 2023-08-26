@@ -1,0 +1,65 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+        h1
+          | Medpharms
+          small &nbsp;Find the pharmacies near you!
+  .row
+    .col-xs-12.col-sm-8
+      .row.list-group
+        .col-xs-12.list-group-item
+          h4
+            a(href='/pharm') Medplus
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 100m
+          p.address farhat hospital lane,old malakpet
+          p
+            span.label.label-warning Tablets
+            | &nbsp;
+            span.label.label-warning Supplements
+            | &nbsp;
+            span.label.label-warning Over-the-counter medication
+            | &nbsp;
+        .col-xs-12.list-group-item
+          h4
+            a(href='/pharm2') Apollo
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 200m
+          p.address beside more super market,saleemnagar colony,malakpet
+          p
+            span.label.label-warning Supplements
+            | &nbsp;
+            span.label.label-warning Snacks
+            | &nbsp;
+        .col-xs-12.list-group-item
+          h4
+            a(href='/pharm3') Medimart
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 250m
+          p.address dayanand nagar,new malakpet
+          p
+            span.label.label-warning Medicines
+            | &nbsp;
+            span.label.label-warning Chocolates
+            | &nbsp;
+    .col-xs-12.col-sm-4
+      p.lead
+        | Looking for pharmacy near you ? Medpharms helps you find places to buy the medicines at best prices.Let Medpharms help you find the place you're looking for.

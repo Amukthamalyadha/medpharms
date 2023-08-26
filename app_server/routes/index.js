@@ -1,0 +1,11 @@
+var express = require('express');
+var router = express.Router();
+var ctrlPharm=require('../controller/pharm');
+var ctrlOthers=require('../controller/others');
+router.get('/', ctrlPharm.homelist); 
+router.get('/pharm', ctrlPharm.pharmInfo); 
+router.get('/pharm2', ctrlPharm.pharmInfo2); 
+router.get('/pharm3', ctrlPharm.pharmInfo3); 
+router.get('/pharm/review/new', ctrlPharm.addReview); 
+router.get('/about',ctrlOthers.about);
+module.exports = router;
